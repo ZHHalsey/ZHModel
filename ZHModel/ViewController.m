@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "DemoModel.h"
 #import "sonModel.h"
 
 @interface ViewController ()
@@ -37,6 +36,7 @@
     
     // Demo
     sonModel *model1 = [[sonModel alloc]init];
+//    [model1 ZH_modelWithDictionary:paraDic];
     [model1 ZH_modelWithDictionary:paraDic withOldKeyArr:@[@"id", @"char"] toNewKeyArr:@[@"myID", @"myChar"]];
 
     NSLog(@"model--%@, model.banner_id--%@, model.picture--%@, model.id--%@, model.char--%@, model.keyNil--%@", model1, model1.banner_id, model1.picture, model1.myID, model1.myChar, model1.keyNil);

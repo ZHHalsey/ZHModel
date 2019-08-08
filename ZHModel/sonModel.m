@@ -10,12 +10,4 @@
 
 @implementation sonModel
 
-// 更换key, 不需要更换key的话, 此方法不用实现
-//- (void)setValue:(id)value forKey:(NSString *)key{
-//    if ([key isEqualToString:@"id"]) {
-//        key = @"my11ID";
-//    }
-//    [super setValue:value forKey:key];
-//}
-
 @end

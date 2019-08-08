@@ -17,15 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    /**
-     字典 :
-     @{@"banner_id":@"index",
-     @"id":@"9ca614026f4b4ea592bae688420436fe",
-     @"is_out_site":@"1",
-     @"picture":@"/upload/20180803/77491533277527398.png",
-     @"seq_num":@"1"
-     };
-     */
+    
     NSDictionary *paraDic = @{@"banner_id":@"index",
         @"id":@"9ca614026f4b4ea592bae688420436fe",
         @"is_out_site":@"1",

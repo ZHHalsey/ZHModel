@@ -15,6 +15,8 @@
 		F994049822FBBAC800B46FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F994049722FBBAC800B46FAC /* main.m */; };
 		F99404A222FBBAC800B46FAC /* ZHModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F99404A122FBBAC800B46FAC /* ZHModelTests.m */; };
 		F99404AD22FBBAC800B46FAC /* ZHModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F99404AC22FBBAC800B46FAC /* ZHModelUITests.m */; };
+		F99404BF22FBC8CB00B46FAC /* ZHModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F99404BE22FBC8CB00B46FAC /* ZHModel.m */; };
+		F99404C222FBCC0600B46FAC /* sonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F99404C122FBCC0600B46FAC /* sonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F99404A822FBBAC800B46FAC /* ZHModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99404AC22FBBAC800B46FAC /* ZHModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHModelUITests.m; sourceTree = "<group>"; };
 		F99404AE22FBBAC800B46FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99404BD22FBC8CB00B46FAC /* ZHModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHModel.h; sourceTree = "<group>"; };
+		F99404BE22FBC8CB00B46FAC /* ZHModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHModel.m; sourceTree = "<group>"; };
+		F99404C022FBCC0600B46FAC /* sonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sonModel.h; sourceTree = "<group>"; };
+		F99404C122FBCC0600B46FAC /* sonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sonModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				F994048922FBBAC600B46FAC /* AppDelegate.m */,
 				F994048B22FBBAC600B46FAC /* ViewController.h */,
 				F994048C22FBBAC600B46FAC /* ViewController.m */,
+				F99404BD22FBC8CB00B46FAC /* ZHModel.h */,
+				F99404BE22FBC8CB00B46FAC /* ZHModel.m */,
+				F99404C022FBCC0600B46FAC /* sonModel.h */,
+				F99404C122FBCC0600B46FAC /* sonModel.m */,
 				F994048E22FBBAC600B46FAC /* Main.storyboard */,
 				F994049122FBBAC800B46FAC /* Assets.xcassets */,
 				F994049322FBBAC800B46FAC /* LaunchScreen.storyboard */,
@@ -262,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99404C222FBCC0600B46FAC /* sonModel.m in Sources */,
+				F99404BF22FBC8CB00B46FAC /* ZHModel.m in Sources */,
 				F994048D22FBBAC600B46FAC /* ViewController.m in Sources */,
 				F994049822FBBAC800B46FAC /* main.m in Sources */,
 				F994048A22FBBAC600B46FAC /* AppDelegate.m in Sources */,
@@ -437,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J48HY82XT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = ZHModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J48HY82XT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = ZHModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
